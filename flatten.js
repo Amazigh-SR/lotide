@@ -54,7 +54,7 @@ assertArraysEqual(flatten([[], [], []]), []);
 //3 array of arrays with different data types
 assertArraysEqual(flatten([1, 2, [3, 4], [5, 2, "Hola", "hello"], [6]]), [1, 2, 3, 4, 5, 2, "Hola", "hello", 6]);
 
-
+module.exports = flatten;
 
 
 

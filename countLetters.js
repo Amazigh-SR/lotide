@@ -39,3 +39,4 @@ const results = (countLetters(removeSpace("lhl")));
 assertEqual(results["l"], 2); // Checking for the number of occurences for the letter l.
 assertEqual(results["h"], 1); // Checking for the number of occurences for the letter l.
 
+module.exports = countLetters;

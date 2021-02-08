@@ -1,3 +1,5 @@
+const { Module } = require("module");
+
 //Function assertEqual
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
@@ -65,3 +67,5 @@ eqObjects(cd, cd2); // => false
 
 assertEqual(eqObjects(cd, dc), true);
 assertEqual(eqObjects(cd, cd2), false);
+
+module.exports = eqObjects;

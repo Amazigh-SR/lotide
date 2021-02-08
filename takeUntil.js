@@ -48,3 +48,5 @@ const bool = [false, false, false, true];
 // const results3 = takeUntil(bool, bool => bool)
 // console.log(results3); // [false, false, false];
 assertArraysEqual(takeUntil(bool, bool => bool), [false, false, false]);
+
+module.exports = takeUntil;

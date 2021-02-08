@@ -61,3 +61,4 @@ console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 // 4 - Check the case for type Coercion i.e.
 // assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ["1", "2"]);
 
+module.exports = without;
