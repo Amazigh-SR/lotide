@@ -28,9 +28,9 @@ const prettyPrint = function(arr) {
 //assertArrayEqual Function
 const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
-    console.log(`✅✅✅ Assertion Passed: ${prettyPrint(actual)} === ${prettyPrint(expected)}`);
+    console.log(`✅✅✅ Assertion Passed: ${prettyPrint(actual)} === ${prettyPrint(expected)}`); //You could ignore the === part
   } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${prettyPrint(actual)} !== ${prettyPrint(expected)}`);
+    console.log(`🛑🛑🛑 Assertion Failed: ${prettyPrint(actual)} !== ${prettyPrint(expected)}`); //You could ignore the === part
   }
 };
 
