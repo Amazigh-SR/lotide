@@ -39,11 +39,11 @@ const map = function(arr, cb) {
 };
 
 //Test Cases
-//1 - Empty Array [] as input.
-assertArraysEqual(map([], el => el[0]), []);
-//2 - the words array as input - straightforward check
-assertArraysEqual((map(words, el => el[0])), ["g", "c", "t", "m", "t"]);
-// // 3 - An array of numbers
-assertArraysEqual(map([1, 2, 3, 4], num => num * 2), [2, 4, 6, 8]);
+// //1 - Empty Array [] as input.
+// assertArraysEqual(map([], el => el[0]), []);
+// //2 - the words array as input - straightforward check
+// assertArraysEqual((map(words, el => el[0])), ["g", "c", "t", "m", "t"]);
+// // // 3 - An array of numbers
+// assertArraysEqual(map([1, 2, 3, 4], num => num * 2), [2, 4, 6, 8]);
 
 module.exports = map;

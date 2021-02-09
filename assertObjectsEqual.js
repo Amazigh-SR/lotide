@@ -28,8 +28,8 @@ const assertObjectsEqual = function(actual, expected) {
 }
 
 //Test Cases to verify that the assertObjectsEqual is working as intended.
-assertObjectsEqual({a:1, b:2}, {a:1, b:2})
-assertObjectsEqual({a:1, b:2}, {a:1, b:3})
+// assertObjectsEqual({a:1, b:2}, {a:1, b:2})
+// assertObjectsEqual({a:1, b:2}, {a:1, b:3})
 
 module.exports = assertObjectsEqual;
 

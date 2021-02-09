@@ -49,13 +49,13 @@ const letterPositions = function(sentence) {
 
 //Test Case
 //Simple check to see if the letterPositions function is working as intended.
-console.log(letterPositions(removeSpace("hello")));
-const result = letterPositions(removeSpace("hello"));
-//Used the assertArraysEqual to verify that the 4 letters (from the word "hello") are outputting the correct result
-assertArraysEqual((result["h"]), [0]);
-assertArraysEqual((result["e"]), [1]);
-assertArraysEqual((result["l"]), [2, 3]);
-assertArraysEqual((result["o"]), [4]);
+// console.log(letterPositions(removeSpace("hello")));
+// const result = letterPositions(removeSpace("hello"));
+// //Used the assertArraysEqual to verify that the 4 letters (from the word "hello") are outputting the correct result
+// assertArraysEqual((result["h"]), [0]);
+// assertArraysEqual((result["e"]), [1]);
+// assertArraysEqual((result["l"]), [2, 3]);
+// assertArraysEqual((result["o"]), [4]);
 
 // assertArraysEqual(letterPositions("hello").e, [1]);
 

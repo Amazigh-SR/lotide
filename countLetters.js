@@ -28,15 +28,15 @@ const countLetters = function(sentence) {
 };
 
 //Test Cases:
-// 1 - Simple test to check if a single word (without spaces) as an input works as intended
-console.log(countLetters(removeSpace("lhl"))); // { l: 2, h: 1 } --> Works great
-// 2 - Simple test to check is a sentence (includes spaces) as an input works as intended
-console.log(countLetters(removeSpace("lhl is an amazing bootcamp"))); // { l: 2, h: 1 } --> Works great
+// // 1 - Simple test to check if a single word (without spaces) as an input works as intended
+// console.log(countLetters(removeSpace("lhl"))); // { l: 2, h: 1 } --> Works great
+// // 2 - Simple test to check is a sentence (includes spaces) as an input works as intended
+// console.log(countLetters(removeSpace("lhl is an amazing bootcamp"))); // { l: 2, h: 1 } --> Works great
 
-// Let's check using our assertEqual function
-// First we need to capture the object
-const results = (countLetters(removeSpace("lhl")));
-assertEqual(results["l"], 2); // Checking for the number of occurences for the letter l.
-assertEqual(results["h"], 1); // Checking for the number of occurences for the letter l.
+// // Let's check using our assertEqual function
+// // First we need to capture the object
+// const results = (countLetters(removeSpace("lhl")));
+// assertEqual(results["l"], 2); // Checking for the number of occurences for the letter l.
+// assertEqual(results["h"], 1); // Checking for the number of occurences for the letter l.
 
 module.exports = countLetters;

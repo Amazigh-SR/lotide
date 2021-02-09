@@ -41,18 +41,18 @@ const flatten = function(arr) {
   return flatArray;
 };
 
-console.log(flatten([1, 2, [3, 4], 5, [6]])); // => [1, 2, 3, 4, 5, 6]
-console.log(flatten([]));
-console.log(flatten([1, 2, [3, 4], [5, 2, 5, 8], [6]]));
-console.log(flatten([1, 2, [3, 4], [5, 2, "Hola", "hello"], [6]]));
+// console.log(flatten([1, 2, [3, 4], 5, [6]])); // => [1, 2, 3, 4, 5, 6]
+// console.log(flatten([]));
+// console.log(flatten([1, 2, [3, 4], [5, 2, 5, 8], [6]]));
+// console.log(flatten([1, 2, [3, 4], [5, 2, "Hola", "hello"], [6]]));
 
-//Test Cases:
-//1 -  Empty Array
-assertArraysEqual(flatten([]), []);
-//2 - array of empty arrays
-assertArraysEqual(flatten([[], [], []]), []);
-//3 array of arrays with different data types
-assertArraysEqual(flatten([1, 2, [3, 4], [5, 2, "Hola", "hello"], [6]]), [1, 2, 3, 4, 5, 2, "Hola", "hello", 6]);
+// //Test Cases:
+// //1 -  Empty Array
+// assertArraysEqual(flatten([]), []);
+// //2 - array of empty arrays
+// assertArraysEqual(flatten([[], [], []]), []);
+// //3 array of arrays with different data types
+// assertArraysEqual(flatten([1, 2, [3, 4], [5, 2, "Hola", "hello"], [6]]), [1, 2, 3, 4, 5, 2, "Hola", "hello", 6]);
 
 module.exports = flatten;
 

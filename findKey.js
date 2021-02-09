@@ -32,8 +32,8 @@ const stars = {
 
 //Test Cases
 // 1 -
-assertEqual(findKey(stars, key => key.stars === 2), "noma");
-// 2 -
-assertEqual(findKey(stars, key => key.stars === 5), undefined);
+// assertEqual(findKey(stars, key => key.stars === 2), "noma");
+// // 2 -
+// assertEqual(findKey(stars, key => key.stars === 5), undefined);
 
 module.exports = findKey;

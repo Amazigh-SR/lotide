@@ -46,8 +46,8 @@ const without = function(source, itemsToRemove) {
   }
   return newArr;
 };
-console.log(without([1, 2, 3], [1])); // => [2, 3]
-console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
+// console.log(without([1, 2, 3], [1])); // => [2, 3]
+// console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 
 //Test Cases
 // // 1 - Check that the original array is not modified
